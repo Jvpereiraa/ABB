@@ -10,7 +10,7 @@ b = float(raw_input("Intervalo b: "))
 iteracao = float(raw_input("Iteracoes: "))
 
 
-while (interacao != 0):
+while (iteracao != 0):
 	if ((funcao (a) * funcao((a+b)/2)) > 0):
 		a = (a+b)/2
 		b=b
@@ -20,5 +20,5 @@ while (interacao != 0):
 	elif ((funcao ((a+b)/2)) == 0):
 		print ("Raiz aproximada e" + str((a+b)/2))
 		break
-	iteracao = interacao -1 
+	iteracao = iteracao -1 
 print ("Raiz aproximada e " + str((a+b)/2))
